@@ -9,7 +9,7 @@ const RoutesComponent = () => {
 	return (
 		<BrowserRouter>
 			<Routes>
-				<Route path="/" element={<MainLayout/>}>
+				<Route path="/teamtim" element={<MainLayout/>}>
 					<Route index element={<Main />} />
 				</Route>
 

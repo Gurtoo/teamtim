@@ -6,35 +6,35 @@ const MainProjects = () => {
 		{
 			title: "ГТО",
 			text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-			banner: "/images/project-1.png"
+			banner: "/teamtim/images/project-1.png"
 		},
 		{
 			title: "ГТО",
 			text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-			banner: "/images/project-2.png",
+			banner: "/teamtim/images/project-2.png",
 			isBlack: true
 		},
 		{
 			title: "ГТО",
 			text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-			banner: "/images/project-3.png",
+			banner: "/teamtim/images/project-3.png",
 			isBlack: true
 		},
 		{
 			title: "ГТО",
 			text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-			banner: "/images/project-1.png"
+			banner: "/teamtim/images/project-1.png"
 		},
 		{
 			title: "ГТО",
 			text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-			banner: "/images/project-2.png",
+			banner: "/teamtim/images/project-2.png",
 			isBlack: true
 		},
 		{
 			title: "ГТО",
 			text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-			banner: "/images/project-3.png",
+			banner: "/teamtim/images/project-3.png",
 			isBlack: true
 		},
 	]

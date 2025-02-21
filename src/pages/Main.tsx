@@ -31,7 +31,7 @@ const Main = () => {
 		<main className={"main"}>
 			<div className={"main__banners"}>
 				<div className={"main__banners__img"}>
-					<img src="/images/banner-1.png"/>
+					<img src="/teamtim/images/banner-1.png"/>
 				</div>
 
 				<div className={"main__banners__block"}>

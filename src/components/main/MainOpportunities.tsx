@@ -15,16 +15,16 @@ const MainOpportunities = () => {
 			text: "Мы создаем программные решения, которые легко интегрируются с уже существующими бизнес-системами.",
 			categories: ["CRM", "ERP", "API", "SaaS"],
 			rightImg: "",
-			banner: "/images/opportunities-1.jpg",
-			bannerMobile: "/images/opportunities-mobile-1.jpg"
+			banner: "/teamtim/images/opportunities-1.jpg",
+			bannerMobile: "/teamtim/images/opportunities-mobile-1.jpg"
 		},
 		{
 			title: "Интеграция с вашими системами",
 			text: "Мы создаем программные решения, которые легко интегрируются с уже существующими бизнес-системами.",
 			categories: ["CI/CD", "DevOps", "Updates", "UX/UI"],
 			rightImg: "",
-			banner: "/images/opportunities-2.jpg",
-			bannerMobile: "/images/opportunities-mobile-2.jpg"
+			banner: "/teamtim/images/opportunities-2.jpg",
+			bannerMobile: "/teamtim/images/opportunities-mobile-2.jpg"
 		}
 	]
 

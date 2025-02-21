@@ -2,28 +2,28 @@
 const MainPartners = () => {
 	const list = [
 		{
-			img: "/images/partner/partner-1.svg"
+			img: "/teamtim/images/partner/partner-1.svg"
 		},
 		{
-			img: "/images/partner/partner-2.svg"
+			img: "/teamtim/images/partner/partner-2.svg"
 		},
 		{
-			img: "/images/partner/partner-1.svg"
+			img: "/teamtim/images/partner/partner-1.svg"
 		},
 		{
-			img: "/images/partner/partner-2.svg"
+			img: "/teamtim/images/partner/partner-2.svg"
 		},
 		{
-			img: "/images/partner/partner-1.svg"
+			img: "/teamtim/images/partner/partner-1.svg"
 		},
 		{
-			img: "/images/partner/partner-2.svg"
+			img: "/teamtim/images/partner/partner-2.svg"
 		},
 		{
-			img: "/images/partner/partner-1.svg"
+			img: "/teamtim/images/partner/partner-1.svg"
 		},
 		{
-			img: "/images/partner/partner-2.svg"
+			img: "/teamtim/images/partner/partner-2.svg"
 		},
 	]
 
