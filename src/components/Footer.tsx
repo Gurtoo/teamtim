@@ -25,44 +25,46 @@ const Footer = () => {
 
 	return (
 		<footer className={"footer"}>
-			<div className={"container"}>
-				<div className={"footer__menu header__menu"}>
-					<ul className={"header__menu__list"}>
-						{menu.map((item, idx) => (
-							<li
-								key={`menu-item-${idx}`}
-								className={"header__menu__item"}
-								onClick={() => handleOpenRedirect(item.key)}
-							>
-								{item.text}
-							</li>
-						))}
-					</ul>
-				</div>
+			<div className={"footer__container"}>
+				<div className={"container"}>
+					<div className={"footer__menu header__menu"}>
+						<ul className={"header__menu__list"}>
+							{menu.map((item, idx) => (
+								<li
+									key={`menu-item-${idx}`}
+									className={"header__menu__item"}
+									onClick={() => handleOpenRedirect(item.key)}
+								>
+									{item.text}
+								</li>
+							))}
+						</ul>
+					</div>
 
-				<div className={"footer__bottom"}>
-					<div className={"footer__logo"}>
-						<div className={"header__logo"}>
-							<LogoIcon/>
+					<div className={"footer__bottom"}>
+						<div className={"footer__logo"}>
+							<div className={"header__logo"}>
+								<LogoIcon/>
+							</div>
+
+							<p>Внедряем IT в ДНК вашей компании</p>
 						</div>
 
-						<p>Внедряем IT в ДНК вашей компании</p>
-					</div>
+						<div className={"footer__info"}>
+							<p>+998 99 999 99 99</p>
 
-					<div className={"footer__info"}>
-						<p>+998 99 999 99 99</p>
+							<p>example@teamtim.mail</p>
 
-						<p>example@teamtim.mail</p>
+							<p>Адресс компании для того чтобы он был</p>
+						</div>
 
-						<p>Адресс компании для того чтобы он был</p>
-					</div>
+						<div className={"footer__social"}>
+							<TelegramIcon/>
 
-					<div className={"footer__social"}>
-						<TelegramIcon/>
+							<FacebookIcon/>
 
-						<FacebookIcon/>
-
-						<InstagramIcon/>
+							<InstagramIcon/>
+						</div>
 					</div>
 				</div>
 			</div>

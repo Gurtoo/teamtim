@@ -5,6 +5,8 @@
 	z-index: 3;
     background-color: #00000066;
     backdrop-filter: blur(16px);
+    //max-width: rem(1200);
+    margin: auto;
 
     &__container {
         display: flex;
