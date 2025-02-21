@@ -17,11 +17,9 @@ const MainApplication = () => {
 	} = useForm<FormData>(
 		{
 			values: {
-				image: "",
-				image_mobile: "",
-				src: "",
-				title: "",
-				text: ""
+				name: "",
+				phone: "",
+				telegram: ""
 			}
 		}
 	);
