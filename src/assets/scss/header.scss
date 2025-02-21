@@ -1,0 +1,37 @@
+.header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 3;
+    background-color: #00000066;
+    backdrop-filter: blur(16px);
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: rem(20) 0;
+    }
+
+    &__logo {}
+
+	&__left, &__right {
+		display: flex;
+		align-items: center;
+	}
+
+    &__menu {
+        &__list {
+            display: flex;
+            gap: rem(30);
+        }
+
+        &__item {
+            list-style: none;
+            cursor: pointer;
+            color: $white;
+        }
+    }
+
+	&__right {}
+}

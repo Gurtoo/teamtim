@@ -1,0 +1,52 @@
+//Vars
+
+$montserrat: 'Montserrat', sans-serif;
+
+$browser-context: 16; // Default
+
+//Colors
+
+$black: #000000;
+$black-second: #4a4a4a;
+$c-black--005: rgba(0, 0, 0, 0.05);
+$c-black--05: rgba(0, 0, 0, 0.5);
+$c-black--01: rgba(0, 0, 0, 0.1);
+$c-black--02: rgba(0, 0, 0, 0.2);
+
+$white: #ffffff;
+
+$primary: radial-gradient(
+        136.54% 137.69% at 91.99% 8.15%, #0077FF 0%,
+        rgba(0, 119, 255, 0.63) 100%
+);
+
+$primary-revers: linear-gradient(90deg, #3381DF 0%, #1958FA 100%);
+
+$green: #14ba05;
+
+$blue: #007AFF;
+$blue-second: #1958FA;
+$dark-blue: #00485E;
+
+$light_blue: #EFF8FB;
+$light_blue-2: #ddf1f8;
+
+
+$gray: #BBBBBB;
+
+$gray-dark: #707070;
+$gray-dark-second: #959595;
+
+$gray-light: #e2e8f1;
+$gray-light-second: #f8f8f8;
+$c-light-gray--4: #99A2AD;
+$c-light-gray--27: #F7F8FA;
+
+$orange: #FF7C38;
+$orange-second: #FF861E;
+
+$red: #CC153F;
+$red-hover: #bd143b;
+$error: #FF0000;
+
+//

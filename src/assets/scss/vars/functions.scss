@@ -1,0 +1,33 @@
+@use "sass:math";
+@import "./variables";
+
+//Methods
+
+$browser-context: 16;
+
+$blueColor: #000000;
+$lightBlue: #0000FFFF;
+$whiteColor: #FFFFFF;
+
+@function blueColor($opacity: number, $context: $blueColor) {
+	$opacity: $opacity / 100;
+	@return rgba($context, $opacity)
+}
+
+@function lightBlue($opacity: number, $context: $lightBlue) {
+	$opacity: $opacity / 100;
+	@return rgba($context, $opacity)
+}
+
+@function rem($pixels: number, $context: $browser-context) {
+    @return #{math.div($pixels, $context)}rem;
+}
+
+//Mixin
+
+@mixin montserrat($rem){
+    font: rem($rem) $montserrat;
+    //ответ
+    //@include montserrat(35);
+}
+
