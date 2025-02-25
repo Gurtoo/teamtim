@@ -34,16 +34,19 @@ const Main = () => {
 					<img src="/teamtim/images/banner-1.png"/>
 				</div>
 
-				<div className={"main__banners__block"}>
-					<h3 className={"main__banners__title"}>
-						Внедряем IT решение
-						в ДНК вашей компании
-					</h3>
+				<div className="main__banners__container">
+					<div className={"main__banners__block"}>
+						<h3 className={"main__banners__title"}>
+							Внедряем IT решение
+							в ДНК вашей компании
+						</h3>
 
-					<p className={"main__banners__info"}>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-						the industry's standard dummy
-					</p>
+						<p className={"main__banners__info"}>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+							been
+							the industry's standard dummy
+						</p>
+					</div>
 				</div>
 			</div>
 
